@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Users</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h2 class="mb-3">Users Table</h2>
+      <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+          <tr>
+            <th>#</th>
+            <th>Username</th>
+            <th>Name</th>
+            <th>Surname</th>
+            <th>Age</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody">
+          <!-- Table rows will be dynamically added here -->
+        </tbody>
+      </table>
+      <div class="d-flex gap-2">
+        <button
+          class="btn btn-secondary"
+          data-bs-toggle="modal"
+          data-bs-target="#dataModal"
+        >
+          Add via Form
+        </button>
+        <button type="button" class="btn btn-success" id="addToServer">
+          Add on Server
+        </button>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="dataModal"
+      tabindex="-1"
+      aria-labelledby="dataModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="dataModalLabel">Add Data</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <form id="dataForm">
+              <div class="mb-3">
+                <label for="nameInput" class="form-label">Username</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="username"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <label for="valueInput" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required />
+              </div>
+              <div class="mb-3">
+                <label for="valueInput" class="form-label">Surname</label>
+                <input type="text" class="form-control" id="surname" required />
+              </div>
+              <div class="mb-3">
+                <label for="valueInput" class="form-label">Age</label>
+                <input type="number" class="form-control" id="age" required />
+              </div>
+              <div class="mb-3">
+                <label for="valueInput" class="form-label">Email</label>
+                <input type="text" class="form-control" id="email" required />
+              </div>
+              <div class="d-flex gap-2">
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  id="modalAddLocal"
+                >
+                  Add Local
+                </button>
+                <button type="button" class="btn btn-success" id="modalSubmit">
+                  Add on Server
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $.ajax({
+          url: "/api/Users", // Adjust endpoint as needed
+          type: "GET",
+          contentType: "application/json",
+          success: function (response) {
+            let tableBody = $("#tableBody");
+            response.forEach((user, index) => {
+              tableBody.append(`
+                <tr>
+                <td>${index + 1}</td>
+                <td>${user.username}</td>
+                <td>${user.name}</td>
+                <td>${user.surname}</td>
+                <td>${user.age}</td>
+                <td>${user.email}</td>
+                </tr>`);
+            });
+          },
+          error: function () {
+            alert("Failed to receive data from server");
+          },
+        });
+
+        function addRow(username, name, surname, age, email) {
+          let tableBody = $("#tableBody");
+          let rowCount = tableBody.children().length + 1;
+          tableBody.append(`
+                <tr>
+                <td>${rowCount}</td>
+                <td>${username}</td>
+                <td>${name}</td>
+                <td>${surname}</td>
+                <td>${age}</td>
+                <td>${email}</td>
+                </tr>`);
+        }
+
+        function sendDataToServer() {
+          let tableData = [];
+          $("#tableBody tr").each(function () {
+            let cells = $(this).find("td");
+            let rowData = {
+              username: $(cells[1]).text(),
+              name: $(cells[2]).text(),
+              surname: $(cells[3]).text(),
+              age: $(cells[4]).text(),
+              email: $(cells[5]).text(),
+            };
+            tableData.push(rowData);
+          });
+
+          $.ajax({
+            url: "/api/Users/add-multiple-users", // Adjust endpoint as needed
+            type: "POST",
+            contentType: "application/json",
+            data: JSON.stringify(tableData),
+            success: function (response) {
+              alert("Data successfully sent to the server");
+            },
+            error: function () {
+              alert("Failed to send data to server");
+            },
+          });
+        }
+
+        $("#modalAddLocal").click(function () {
+          let username = $("#username").val();
+          let name = $("#name").val();
+          let surname = $("#surname").val();
+          let age = $("#age").val();
+          let email = $("#email").val();
+          if (username && name && surname && age && email) {
+            addRow(username, name, surname, age, email);
+            $("#dataModal").modal("hide");
+            $("#dataForm")[0].reset();
+          }
+        });
+
+        $("#modalSubmit").click(function () {
+          let username = $("#username").val();
+          let name = $("#name").val();
+          let surname = $("#surname").val();
+          let age = $("#age").val();
+          let email = $("#email").val();
+          if (username && name && surname && age && email) {
+            addRow(username, name, surname, age, email);
+            sendDataToServer();
+            $("#dataModal").modal("hide");
+            $("#dataForm")[0].reset();
+          }
+        });
+
+        $("#addToServer").click(function () {
+            sendDataToServer();
+        });
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

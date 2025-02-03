@@ -1,0 +1,221 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|c:\\users\\edvin lekovic\\source\\repos\\userwebapplication\\userwebapplication\\wwwroot\\web-page.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|solutionrelative:userwebapplication\\wwwroot\\web-page.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|c:\\users\\edvin lekovic\\source\\repos\\userwebapplication\\userwebapplication\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|solutionrelative:userwebapplication\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|c:\\users\\edvin lekovic\\source\\repos\\userwebapplication\\userwebapplication\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|solutionrelative:userwebapplication\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|c:\\users\\edvin lekovic\\source\\repos\\userwebapplication\\userwebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|solutionrelative:userwebapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|c:\\users\\edvin lekovic\\source\\repos\\userwebapplication\\userwebapplication\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|solutionrelative:userwebapplication\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|c:\\users\\edvin lekovic\\source\\repos\\userwebapplication\\userwebapplication\\userwebapplication.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|solutionrelative:userwebapplication\\userwebapplication.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|c:\\users\\edvin lekovic\\source\\repos\\userwebapplication\\userwebapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|solutionrelative:userwebapplication\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|c:\\users\\edvin lekovic\\source\\repos\\userwebapplication\\userwebapplication\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|solutionrelative:userwebapplication\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|c:\\users\\edvin lekovic\\source\\repos\\userwebapplication\\userwebapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|solutionrelative:userwebapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|c:\\users\\edvin lekovic\\source\\repos\\userwebapplication\\userwebapplication\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|solutionrelative:userwebapplication\\database\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|c:\\users\\edvin lekovic\\source\\repos\\userwebapplication\\userwebapplication\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|solutionrelative:userwebapplication\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|c:\\users\\edvin lekovic\\source\\repos\\userwebapplication\\userwebapplication\\migrations\\20250201172717_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869344AC-3F54-4073-8278-B3E547ECB939}|UserWebApplication\\UserWebApplication.csproj|solutionrelative:userwebapplication\\migrations\\20250201172717_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "web-page.html",
+              "DocumentMoniker": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\wwwroot\\web-page.html",
+              "RelativeDocumentMoniker": "UserWebApplication\\wwwroot\\web-page.html",
+              "ToolTip": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\wwwroot\\web-page.html",
+              "RelativeToolTip": "UserWebApplication\\wwwroot\\web-page.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-03T17:47:51.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "UserWebApplication\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "UserWebApplication\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T17:39:09.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserWebApplication.http",
+              "DocumentMoniker": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\UserWebApplication.http",
+              "RelativeDocumentMoniker": "UserWebApplication\\UserWebApplication.http",
+              "ToolTip": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\UserWebApplication.http",
+              "RelativeToolTip": "UserWebApplication\\UserWebApplication.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-02-01T16:53:17.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\Models\\User.cs",
+              "RelativeDocumentMoniker": "UserWebApplication\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\Models\\User.cs",
+              "RelativeToolTip": "UserWebApplication\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T17:09:40.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "UserWebApplication\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "UserWebApplication\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T17:51:42.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "UserWebApplication\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "UserWebApplication\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T17:40:04.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\Program.cs",
+              "RelativeDocumentMoniker": "UserWebApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\Program.cs",
+              "RelativeToolTip": "UserWebApplication\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T16:53:22.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "UserWebApplication\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "UserWebApplication\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T17:38:38.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "UserWebApplication\\appsettings.json",
+              "ToolTip": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\appsettings.json",
+              "RelativeToolTip": "UserWebApplication\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-01T17:03:15.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "UserWebApplication\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "UserWebApplication\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T17:35:45.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250201172717_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\Migrations\\20250201172717_InitialCreate.cs",
+              "RelativeDocumentMoniker": "UserWebApplication\\Migrations\\20250201172717_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\Migrations\\20250201172717_InitialCreate.cs",
+              "RelativeToolTip": "UserWebApplication\\Migrations\\20250201172717_InitialCreate.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA5wBoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T17:27:18.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\Database\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "UserWebApplication\\Database\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\Database\\ApplicationDbContext.cs",
+              "RelativeToolTip": "UserWebApplication\\Database\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T17:08:06.21Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "rDJW3xy3kPztX7AyZbPFC+G6YjBeSoJL8edPRE48n7c=",
+  "Source": "UserWebApplication",
+  "BasePath": "_content/UserWebApplication",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "UserWebApplication\\wwwroot",
+      "Source": "UserWebApplication",
+      "ContentRoot": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\wwwroot\\",
+      "BasePath": "_content/UserWebApplication",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\obj\\Debug\\net9.0\\compressed\\8umq229nqr-u4wbua3bec.gz",
+      "SourceId": "UserWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/UserWebApplication",
+      "RelativePath": "web-page#[.{fingerprint=u4wbua3bec}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\wwwroot\\web-page.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "yyqx02f469",
+      "Integrity": "yj5SR2MCji9fUwH1IIHCT7HjfFQHdmfjE5KzWSOfEn0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\wwwroot\\web-page.html"
+    },
+    {
+      "Identity": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\wwwroot\\web-page.html",
+      "SourceId": "UserWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\wwwroot\\",
+      "BasePath": "_content/UserWebApplication",
+      "RelativePath": "web-page#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u4wbua3bec",
+      "Integrity": "bq0bRXVFT4pbbTf8O+2+inYIgDJkkDEvnpuiODjcnos=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\web-page.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "web-page.html",
+      "AssetFile": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\obj\\Debug\\net9.0\\compressed\\8umq229nqr-u4wbua3bec.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000582411182"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1716"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yj5SR2MCji9fUwH1IIHCT7HjfFQHdmfjE5KzWSOfEn0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 21:12:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bq0bRXVFT4pbbTf8O+2+inYIgDJkkDEvnpuiODjcnos=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bq0bRXVFT4pbbTf8O+2+inYIgDJkkDEvnpuiODjcnos="
+        }
+      ]
+    },
+    {
+      "Route": "web-page.html",
+      "AssetFile": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\wwwroot\\web-page.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7048"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bq0bRXVFT4pbbTf8O+2+inYIgDJkkDEvnpuiODjcnos=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 21:12:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bq0bRXVFT4pbbTf8O+2+inYIgDJkkDEvnpuiODjcnos="
+        }
+      ]
+    },
+    {
+      "Route": "web-page.html.gz",
+      "AssetFile": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\obj\\Debug\\net9.0\\compressed\\8umq229nqr-u4wbua3bec.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1716"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yj5SR2MCji9fUwH1IIHCT7HjfFQHdmfjE5KzWSOfEn0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 21:12:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yj5SR2MCji9fUwH1IIHCT7HjfFQHdmfjE5KzWSOfEn0="
+        }
+      ]
+    },
+    {
+      "Route": "web-page.u4wbua3bec.html",
+      "AssetFile": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\obj\\Debug\\net9.0\\compressed\\8umq229nqr-u4wbua3bec.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000582411182"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1716"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yj5SR2MCji9fUwH1IIHCT7HjfFQHdmfjE5KzWSOfEn0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 21:12:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bq0bRXVFT4pbbTf8O+2+inYIgDJkkDEvnpuiODjcnos=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u4wbua3bec"
+        },
+        {
+          "Name": "label",
+          "Value": "web-page.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bq0bRXVFT4pbbTf8O+2+inYIgDJkkDEvnpuiODjcnos="
+        }
+      ]
+    },
+    {
+      "Route": "web-page.u4wbua3bec.html",
+      "AssetFile": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\wwwroot\\web-page.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7048"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bq0bRXVFT4pbbTf8O+2+inYIgDJkkDEvnpuiODjcnos=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 21:12:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u4wbua3bec"
+        },
+        {
+          "Name": "label",
+          "Value": "web-page.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bq0bRXVFT4pbbTf8O+2+inYIgDJkkDEvnpuiODjcnos="
+        }
+      ]
+    },
+    {
+      "Route": "web-page.u4wbua3bec.html.gz",
+      "AssetFile": "C:\\Users\\Edvin Lekovic\\source\\repos\\UserWebApplication\\UserWebApplication\\obj\\Debug\\net9.0\\compressed\\8umq229nqr-u4wbua3bec.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1716"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yj5SR2MCji9fUwH1IIHCT7HjfFQHdmfjE5KzWSOfEn0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 21:12:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u4wbua3bec"
+        },
+        {
+          "Name": "label",
+          "Value": "web-page.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yj5SR2MCji9fUwH1IIHCT7HjfFQHdmfjE5KzWSOfEn0="
+        }
+      ]
+    }
+  ]
+}
